@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9335" started-at="2020-05-17T23:17:14Z" finished-at="2020-05-17T23:17:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9335" started-at="2020-05-17T23:17:14Z" finished-at="2020-05-17T23:17:23Z">
+      <class name="TestCases.VerifyLoginFunction">
+        <test-method status="PASS" signature="inititaeDriverInstance()[pri:0, instance:TestCases.VerifyLoginFunction@e50a6f6]" name="inititaeDriverInstance" is-config="true" duration-ms="7327" started-at="2020-05-17T23:17:14Z" finished-at="2020-05-17T23:17:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inititaeDriverInstance -->
+        <test-method status="PASS" signature="createNewAccount()[pri:0, instance:TestCases.VerifyLoginFunction@e50a6f6]" name="createNewAccount" duration-ms="764" started-at="2020-05-17T23:17:21Z" finished-at="2020-05-17T23:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:TestCases.VerifyLoginFunction@e50a6f6]" name="closeDriverInstance" is-config="true" duration-ms="1180" started-at="2020-05-17T23:17:22Z" finished-at="2020-05-17T23:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- TestCases.VerifyLoginFunction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
