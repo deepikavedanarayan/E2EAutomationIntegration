@@ -7,7 +7,7 @@
         <methods>
           <include name="closeDriverInstance"/>
           <include name="inititaeDriverInstance"/>
-          <include name="createNewAccount"/>
+          <include name="validateLogin" invocation-numbers="0"/>
         </methods>
       </class> <!-- TestCases.VerifyLoginFunction -->
     </classes>

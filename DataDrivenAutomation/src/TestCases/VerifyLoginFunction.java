@@ -17,7 +17,7 @@ import PageDesigns.LoginPage;
 
 public class VerifyLoginFunction extends DriverInstance{
 
-	//@Test(dataProvider="Excel", dataProviderClass = DataGenerator.class)
+	@Test(dataProvider="Excel", dataProviderClass = DataGenerator.class)
 	public void validateLogin(String username,String password) throws IOException{
 		
 		LoginPage login = new LoginPage(driver);
@@ -26,7 +26,7 @@ public class VerifyLoginFunction extends DriverInstance{
 		login.clickLoginButton();
 	}
 	
-	@Test
+	//@Test
 	public void createNewAccount() throws IOException {
 		LoginPage login = new LoginPage(driver);
 		login.enterFirstName("deepika");
